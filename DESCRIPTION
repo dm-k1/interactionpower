@@ -11,3 +11,5 @@ Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 Imports: 
     ggplot2
+URL: https://github.com/dm-k1/interactionpower
+BugReports: https://github.com/dm-k1/interactionpower/issues
