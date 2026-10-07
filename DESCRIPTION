@@ -1,11 +1,14 @@
 Package: interactionpower
-Title: What the Package Does (One Line, Title Case)
+Title: Simulation-Based Power Analysis for Interaction Effects
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+    person("DM", "Kloppenburg", , "dm-k1@users.noreply.github.com", role = c("aut", "cre"))
+Description: Simulates data from a regression model with two predictors and
+    their interaction, using standardized effects. Estimates the power to
+    detect each effect at a given sample size, searches for the sample size
+    at which all three effects reach a desired power, and plots the resulting
+    power curves.
+License: MIT + file LICENSE
 Config/roxygen2/version: 8.1.0
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
